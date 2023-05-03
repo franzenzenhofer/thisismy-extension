@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "ChatGPT File Drag",
-  "version": "1.0",
+  "name": "ChatGPT File Drag & Drop",
+  "version": "1.0.1",
   "description": "A Chrome extension that enables dragging files into ChatGPT and appending their content to the entry prompt.",
   "permissions": [],
   "action": {
