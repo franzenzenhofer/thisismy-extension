@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT File Drag",
+  "version": "1.0",
+  "description": "A Chrome extension that enables dragging files into ChatGPT and appending their content to the entry prompt.",
+  "permissions": [],
+  "action": {
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.openai.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}

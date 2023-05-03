@@ -1,0 +1,23 @@
+.chatgpt-entry-prompt.dragging {
+  border: 2px dashed #4a90e2; /* Change the border color */
+  background-color: rgba(74, 144, 226, 0.1); /* Change the background color */
+}
+
+#chatgpt-filedrag-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column; /* Add flex-direction to align the logo and text vertically */
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+#chatgpt-filedrag-overlay p {
+  color: white;
+  font-size: 24px;
+}
