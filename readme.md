@@ -16,7 +16,10 @@ ChatGPT File Drag is a Chrome extension that enables dragging files into ChatGPT
 
 - Drag and drop files directly into the ChatGPT entry prompt
 - Appends file content in a readable format
+- Save tokens with removing unnecessary double whitespaces.
 - Automatically handles multiple files
+- Prefixes the dropped files with "This is my current %filename%"
+- Suffices the dropped files with "This is the end of %filename%"
 
 ## Installation
 
